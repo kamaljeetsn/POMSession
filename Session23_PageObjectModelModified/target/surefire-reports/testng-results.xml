@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="25811" started-at="2020-10-04T16:19:15 IST" finished-at="2020-10-04T16:19:41 IST">
+    <groups>
+    </groups>
+    <test name="Test 2" duration-ms="14580" started-at="2020-10-04T16:19:15 IST" finished-at="2020-10-04T16:19:29 IST">
+      <class name="com.framework.yatra.tests.SearchFlightsTest">
+        <test-method status="PASS" signature="testSearchFlights()[pri:0, instance:com.framework.yatra.tests.SearchFlightsTest@19d481b]" name="testSearchFlights" duration-ms="13684" started-at="2020-10-04T16:19:15 IST" finished-at="2020-10-04T16:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFlights -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.framework.yatra.tests.SearchFlightsTest@19d481b]" name="quit" is-config="true" duration-ms="825" started-at="2020-10-04T16:19:29 IST" finished-at="2020-10-04T16:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.framework.yatra.tests.SearchFlightsTest -->
+    </test> <!-- Test 2 -->
+    <test name="Test 1" duration-ms="25811" started-at="2020-10-04T16:19:15 IST" finished-at="2020-10-04T16:19:41 IST">
+      <class name="com.framework.yatra.tests.BookingTest">
+        <test-method status="PASS" signature="bookingTest(java.util.Hashtable)[pri:0, instance:com.framework.yatra.tests.BookingTest@f381794]" name="bookingTest" duration-ms="25458" started-at="2020-10-04T16:19:15 IST" data-provider="getData" finished-at="2020-10-04T16:19:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DestinationDate=25/10/2020, OriginDate=20/10/2020, Child=2, Adult=2, DepartFrom=Pune, ArrivalTo=Mumbai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.framework.yatra.tests.BookingTest@f381794]" name="quit" is-config="true" duration-ms="216" started-at="2020-10-04T16:19:40 IST" finished-at="2020-10-04T16:19:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.framework.yatra.tests.BookingTest -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

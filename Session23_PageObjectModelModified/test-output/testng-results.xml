@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="26568" started-at="2020-10-04T10:12:11Z" finished-at="2020-10-04T10:12:38Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="20697" started-at="2020-10-04T10:12:11Z" finished-at="2020-10-04T10:12:32Z">
+      <class name="com.framework.yatra.tests.BookingTest">
+        <test-method status="PASS" signature="bookingTest(java.util.Hashtable)[pri:0, instance:com.framework.yatra.tests.BookingTest@62ddbd7e]" name="bookingTest" duration-ms="20081" started-at="2020-10-04T15:42:11Z" data-provider="getData" finished-at="2020-10-04T15:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DestinationDate=25/10/2020, OriginDate=20/10/2020, Child=2, Adult=2, DepartFrom=Pune, ArrivalTo=Mumbai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.framework.yatra.tests.BookingTest@62ddbd7e]" name="quit" is-config="true" duration-ms="529" started-at="2020-10-04T15:42:31Z" finished-at="2020-10-04T15:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.framework.yatra.tests.BookingTest -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="5852" started-at="2020-10-04T10:12:32Z" finished-at="2020-10-04T10:12:38Z">
+      <class name="com.framework.yatra.tests.SearchFlightsTest">
+        <test-method status="PASS" signature="testSearchFlights()[pri:0, instance:com.framework.yatra.tests.SearchFlightsTest@b2c9a9c]" name="testSearchFlights" duration-ms="5652" started-at="2020-10-04T15:42:32Z" finished-at="2020-10-04T15:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFlights -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.framework.yatra.tests.SearchFlightsTest@b2c9a9c]" name="quit" is-config="true" duration-ms="185" started-at="2020-10-04T15:42:37Z" finished-at="2020-10-04T15:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.framework.yatra.tests.SearchFlightsTest -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
